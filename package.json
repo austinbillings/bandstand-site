@@ -1,0 +1,38 @@
+{
+  "name": "bandstand-site",
+  "version": "0.0.1",
+  "description": "Bandstand public web site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinbillings/bandstand-site.git"
+  },
+  "author": "AB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinbillings/bandstand-site/issues"
+  },
+  "homepage": "https://github.com/austinbillings/bandstand-site#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "mansion-ui": "^2.5.3",
+    "react": "^16.8.6",
+    "react-redux": "^7.0.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "redux": "^4.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
