@@ -15,15 +15,25 @@
   "bugs": {
     "url": "https://github.com/austinbillings/bandstand-site/issues"
   },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ]
+  },
   "homepage": "https://github.com/austinbillings/bandstand-site#readme",
   "dependencies": {
     "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-stage-0": "^7.0.0",
     "babel-loader": "^8.0.5",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
     "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
     "mansion-ui": "^2.5.3",
+    "node-sass": "^4.11.0",
     "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-redux": "^7.0.2",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
